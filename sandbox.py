@@ -38,7 +38,7 @@ CPA_inicial= merged_info['CPA_inicial'].drop_duplicates().to_list()
 
 alphabet = list(string.ascii_uppercase)
 
-print("Construyendo todos los posibles CPAs: ")
+print("Construyendo todos los posibles CPAs")
 
 CPA_final = outer_product(outer_product(alphabet,alphabet), alphabet)
 
